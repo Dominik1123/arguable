@@ -1,0 +1,12 @@
+[flake8]
+select = BLK,C,D,DAR,E,F,I,W
+ignore = BLK100,D100,D103,D104
+exclude =
+    src/arguable/__init__.py
+
+max-line-length = 99
+
+docstring-convention = google
+
+application-import-names = arguable
+import-order-style = google
