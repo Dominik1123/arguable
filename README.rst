@@ -11,8 +11,6 @@ Arguable
 Installation
 ------------
 
-As a Python package:
-
 .. code-block::
 
    pip install arguable
@@ -61,7 +59,7 @@ use the following argument definition:
    # `par` is the tuple parameter default.
    parser.add_argument(name, type=type(par[0]), nargs=len(par), default=par)
 
-`bool`:
+``bool``:
 
 .. code-block:: python
 
@@ -89,6 +87,7 @@ the ``config_`` prefix, e.g.:
 
    class ExampleA(Arguable, prefix='test'):
        config_prefix = 'text'  # similar
+
 
    class ExampleB(Arguable, removesuffix='b'):
        config_removesuffix = 'b'  # similar
