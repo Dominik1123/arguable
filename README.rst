@@ -4,6 +4,9 @@
 .. image:: https://codecov.io/gh/Dominik1123/arguable/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/Dominik1123/arguable
 
+.. image:: https://img.shields.io/pypi/v/arguable.svg
+   :target: https://pypi.org/project/arguable/
+
 
 Arguable
 ========
