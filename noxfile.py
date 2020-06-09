@@ -1,6 +1,8 @@
 import nox
 
 
+nox.options.sessions = 'lint', 'tests'
+
 file_locations = 'src', 'tests', 'noxfile.py'
 
 
