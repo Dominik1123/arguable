@@ -1,6 +1,9 @@
 .. image:: https://github.com/Dominik1123/arguable/workflows/Tests/badge.svg
    :target: https://github.com/Dominik1123/arguable/actions?workflow=Tests
 
+.. image:: https://codecov.io/gh/Dominik1123/arguable/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/Dominik1123/arguable
+
 
 Arguable
 ========

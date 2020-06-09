@@ -5,6 +5,13 @@ file_locations = 'src', 'tests', 'noxfile.py'
 
 
 @nox.session(python='3.8')
+def coverage(session):
+    session.install('coverage[toml]', 'codecov')
+    session.run('coverage', 'xml', '--fail-under=0')
+    session.run('codecov', *session.posargs)
+
+
+@nox.session(python='3.8')
 def lint(session):
     flake8_args = session.posargs or file_locations
     session.install(
