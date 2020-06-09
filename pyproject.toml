@@ -2,7 +2,7 @@
 name = "arguable"
 version = "1.0"
 description = "class-level configuration via argparse"
-authors = ["Dominik1123 <<>>"]
+authors = ["Dominik1123 <15989985+Dominik1123@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.rst"
 homepage = "https://github.com/Dominik1123/arguable"
