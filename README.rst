@@ -38,8 +38,10 @@ For example:
    from argparse import Namespace
    from arguable import Arguable
 
+
    class Example(Arguable):
        config = Namespace(language='en')
+
 
    print(Example().config.language)
 
@@ -122,6 +124,7 @@ are supported by the application:
 .. code-block:: python
 
    from arguable import Arguable
+
 
    if __name__ == '__main__':
        # The following will report any excess arguments.
